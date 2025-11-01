@@ -2,16 +2,14 @@ import 'dart:io';
 
 void main() {
   List<Map<String, dynamic>> students = [];
-
-  while (true) {
+while (true) {
     print('\n=== Student Record Management System ===');
     print('1. Add Student');
     print('2. View All Students');
     print('3. Exit');
     stdout.write('Choose an option: ');
     String? choice = stdin.readLineSync();
-
-    switch (choice) {
+switch (choice) {
       case '1':
         addStudent(students);
         break;
