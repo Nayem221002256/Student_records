@@ -1,21 +1,19 @@
 Student_records
+
 Student Record Management System (Dart Console App)
 
- Overview
+Overview
 This is a simple **Dart console-based program** that manages student records.  
 It allows adding multiple students, storing their information in a `List<Map>`,  
 and assigning letter grades (A+ to F) based on their scores.
 
----
 
-  Features
+Features
 ✅ Add student records (Name, ID, and Score)  
 ✅ Store data in a `List<Map>` structure  
 ✅ Automatically assign letter grades based on scores  
 ✅ Prevent duplicate Student IDs  
 ✅ View all student records in a clean format  
-
----
 
 Grading System
 | Score Range | Grade |
@@ -27,10 +25,7 @@ Grading System
 | 50–59  | D  |
 | Below 50 | F |
 
----
-
 How to Run (in VS Code)
-
 1. **Open VS Code**
 2. Create or open a folder named `student_records`
 3. Create a file named `main.dart`
